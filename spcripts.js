@@ -9,6 +9,7 @@ const amount = document.getElementById("amount")
 const currency = document.getElementById("currency")
 const footer = document.querySelector("main footer")
 const description = document.getElementById("description")
+const result = document.getElementById("result")
 
 
 //manipulando o input amount para receber somente números
@@ -39,6 +40,15 @@ function converterCurrency(amount, price, symbol) {
     try {
 
         description.textContent = `${symbol} 1 = ${price}`
+
+        let total = String(amount * price).replace(".", ",")
+
+if(isNaN(total)) {
+    return alert("Por favor, digite o valor corretamente !")
+}
+
+        result.textContent = `R$ ${total} Reais`
+
         footer.classList.add("show-result")
 
     } catch (error) {
