@@ -1,1 +1,3 @@
-Mais um estudo, sendo esse usando Javascripts, foi desenvolvido um sistema de conversão de moedas.
+Mais um estudo foi realizado, desta vez utilizando JavaScript. O projeto consistiu no desenvolvimento de um sistema de conversão de moedas, partindo de uma base já estruturada em HTML e CSS. A partir disso, implementei toda a lógica de funcionamento com JavaScript, permitindo que o usuário escolha as moedas e visualize o valor convertido.
+
+As taxas de câmbio foram definidas manualmente, sem o uso de API, com o objetivo de praticar conceitos fundamentais de lógica, manipulação do DOM e eventos em JavaScript.
