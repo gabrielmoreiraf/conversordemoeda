@@ -43,9 +43,6 @@ function converterCurrency(amount, price, symbol) {
 
         let total = String(amount * price).replace(".", ",")
 
-if(isNaN(total)) {
-    return alert("Por favor, digite o valor corretamente !")
-}
 
         result.textContent = `R$ ${total} Reais`
 
